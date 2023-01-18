@@ -66,3 +66,10 @@ git add . # es comodín que nos permite agregar todo.
 git commit # Abre un editor para escribir el mensaje
 git commit -m "Mensaje del contenido del commit" 
 ```
+
+## Para ver el listado de fotos (Listado de commits)
+
+```sh
+git log # Forma larga y detallada
+git log --oneline # Resumen
+```
