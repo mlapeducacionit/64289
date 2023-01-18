@@ -50,3 +50,18 @@ git init
 * Modified: Archivos conocidos por el repositorio, y a su vez, fueron modificados
 
 * Staged: Archivos cuyos cambios fueron confirmados por nosotros
+
+## Agregar a la zona de confirmación (Staging Area o Index)
+
+```sh
+git add <nombre-archivo>
+git add clase.01/README.md
+git add .gitignore
+git add index.html
+git add . # es comodín que nos permite agregar todo.
+```
+
+
+
+
+
