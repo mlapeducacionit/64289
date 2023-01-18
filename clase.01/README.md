@@ -60,8 +60,9 @@ git add .gitignore
 git add index.html
 git add . # es comodín que nos permite agregar todo.
 ```
+## Para sacar una foto de nuestros archivos. (Hacer un commit)
 
-
-
-
-
+```sh
+git commit # Abre un editor para escribir el mensaje
+git commit -m "Mensaje del contenido del commit" 
+```
