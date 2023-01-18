@@ -73,3 +73,20 @@ git commit -m "Mensaje del contenido del commit"
 git log # Forma larga y detallada
 git log --oneline # Resumen
 ```
+
+## USO NANO
+
+1. Escribo el mensaje
+2. Ctrl + O (Guardo el archivo)
+3. Ctrl + X (Salgo de NANO)
+
+## USO VIM
+
+1. Apreto la tecla i del teclado
+2. Apreto la ESC del teclado
+3. Escribo :wq (Guarda y sale del editor)
+
+
+## Cuando quiero salir de algún comando de GIT
+
+Tengo que usar la tecla **q** del teclado
