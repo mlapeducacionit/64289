@@ -78,6 +78,30 @@ git merge <nombre-de-rama>
 git merge funsion
 ```
 
+## Tenemos 3 tipos diferentes de fusiones
+
+* Fast-fodward (No hay ningun conflicto, o sea que no hay líneas que se superponen entre si entre las diferentes ramas)
+
+* Recursiva (Tiene diferentes algoritmos de fusión. Lo solucion git solo también.)
+
+* Manual (Conflictos - Ocurre cuando hay modificaciones en las misma líneas de código)
+
+NOTA: Al solucionar el conflicto en la fusión manual para confirmar tengo que hacer un commit.
+
+## Cancelar la fusión
+
+```sh
+git merge --abort
+```
+
+## Fusionar varias ramas
+
+```sh
+git merge <rama1> <rama2>
+```
+Nota: Estando en main trae el contenido de las rama1 y la rama2
+
+
 
 ## Configurar la conexión por SSH
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
