@@ -10,5 +10,23 @@ Me permite descartar o omitir archivos y carpetas para que no sean tenidos en cu
 
 En raíz tengo que crear un archivo **.gitignore** y dentro colocar las carpetas o archivos que quiero ignorar
 
+# Subiendo el repo local al remoto
+
+1. Creo el repo en Github
+2. Elijo HTTP
+3. Ejecuto el comando siguiente:
+
+
+```sh
+git remote add <alias> <url>
+git remote add origin https://github.com/mlapeducacionit/64289.git # Agrega el repo remoto al local
+```
+
+```sh
+git push -u <alias> <rama>
+git push -u origin main # -u: --set-upstream | Sube el repositorio local al remoto.
+``` 
+
+
 
 
