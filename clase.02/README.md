@@ -42,6 +42,11 @@ git branch <nombre-rama>
 git branch ramas
 ```
 
+## Para ver las ramas disponibles
+
+```sh
+git branch
+```
 
 
 ## Configurar la conexión por SSH
