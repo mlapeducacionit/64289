@@ -55,6 +55,21 @@ git switch <nombre-rama>
 git switch ramas
 ```
 
+# Borrar ramas 
+
+> Borrar ramas que ya están fusionadas
+
+```sh
+git branch -d <nombre-rama>
+git branch -d fusiones
+```
+
+> Borrar ramas que nunca se funsionaron
+
+```sh
+git branch -D <nombre-rama>
+git branch -D fusiones
+```
 
 ## Configurar la conexión por SSH
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
