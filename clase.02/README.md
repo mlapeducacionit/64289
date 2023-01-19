@@ -55,6 +55,14 @@ git switch <nombre-rama>
 git switch ramas
 ```
 
+# GIT MERGE
+IMPORTANTE: Tengo que estar en la rama en la cual quiero recibir los commits. O sea que si quiero traerme los cambios de la rama fusion a la main. Tengo que estar parado en la rama main y ejecutar el comando siguiente:
+
+```sh
+git merge <nombre-de-rama>
+git merge funsion
+```
+
 
 ## Configurar la conexión por SSH
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
