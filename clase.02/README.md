@@ -48,6 +48,13 @@ git branch ramas
 git branch
 ```
 
+## Cambiarme de ramas
+
+```sh
+git switch <nombre-rama>
+git switch ramas
+```
+
 
 ## Configurar la conexión por SSH
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
