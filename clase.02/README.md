@@ -27,6 +27,7 @@ git push -u <alias> <rama>
 git push -u origin main # -u: --set-upstream | Sube el repositorio local al remoto.
 ``` 
 
-
+## Configurar la conexión por SSH
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
