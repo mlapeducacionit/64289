@@ -33,6 +33,15 @@ git push -u origin main # -u: --set-upstream | Sube el repositorio local al remo
 git push
 ```
 
+# GIT BRANCH (RAMAS)
+
+## Crear una rama
+
+```sh
+git branch <nombre-rama>
+git branch ramas
+```
+
 
 
 ## Configurar la conexión por SSH
