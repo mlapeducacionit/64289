@@ -166,3 +166,9 @@ git push origin <nombre-tag>
 ```sh
 git push --tags
 ```
+
+## Mostrar el log desde un tag para atrás
+
+```sh
+git log v0.1.0 --oneline
+```
