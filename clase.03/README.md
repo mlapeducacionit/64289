@@ -113,3 +113,19 @@ git stash show -p stash@{1} #Le indico que stash quiero ver
 ```sh
 git stash branch <rama-donde-quiero-guardar-lo-que-tengo-en-el-stash>
 ``` 
+
+## git commit con enmendado(agregado de data faltante en el último commit)
+
+**IMPORTANTE:** Eso debe hacerse SOLAMENTE con el último commit. Ni hablar si trabajo colaborativamente
+
+1. Agregar lo que me falto en el último commit al SA
+
+```sh
+git add <archivo-o-archivos>
+```
+
+2. Luego hacer un commit  pero con el flag --amend
+
+```sh
+git commit --amend
+``` 
