@@ -46,5 +46,11 @@ git fetch
 git fetch --all
 ```
 
+## Ver todas las ramas disponibles, incluidas las del remoto en forma detallada
+O sea sicronizar la carpeta .git local con la .git remoto
+
+```sh
+git branch -av # dónde -a es all y -v es verbose 
+```
 
 
