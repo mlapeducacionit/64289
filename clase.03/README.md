@@ -181,4 +181,17 @@ git log v0.1.0 --oneline
 git config --global alias.ll "log --oneline --decorate --all --graph"
 git config --global alias.s "status"
 git config --global alias.c "commit -m"
+git config --global alias.l log --oneline
+```
+
+## Listar los alias
+
+```sh
+git config --get-regexp alias
+```
+
+## Quitar alias
+
+```sh
+git config --global --unset alias.l
 ```
