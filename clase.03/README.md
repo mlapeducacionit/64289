@@ -61,4 +61,55 @@ git pull origin dev # No importa sobre que rama estoy, puedo indicarle que sincr
 git pull origin feature 
 ```
 
+# GIT STASH
+Es una pila de almacenamiento que provee GIT. 
+Permite registrar temporalmente los cambios del WD y del SA.
 
+
+![GIT STASH](_ref/git_stash.png)
+
+
+## Ver los stash
+
+```sh
+git stash list
+```
+
+## Enviar al stash
+
+```sh
+git stash # Envia todo lo que esta en el WD, menos los untracked y lo que esta en SA
+git stash -u # Si quiero incluir los archivos untracked tengo que poner -u
+``` 
+
+## Desapilar o aplicar el último stash
+
+```sh
+git stash pop # aplica y borra el último stash
+```
+
+## Aplicar o desapilar un stash en particular
+
+```sh
+git stash apply # igual pop (aplica el último) pero sin borrarlo
+git stash apply stash@{1}
+```
+
+## Borrar un stash en particular
+
+```sh
+git stash drop # borra el último stash
+git stash drop stash@{3}
+```
+
+## Ver el contenido del stash
+
+```sh
+git stash show -p stash@{1} #Le indico que stash quiero ver
+```
+
+## Crear una rama a partir de un stash
+
+```sh
+git stash branch <rama-donde-quiero-guardar-lo-que-tengo-en-el-stash>
+``` 
