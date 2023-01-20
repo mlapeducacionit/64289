@@ -38,5 +38,13 @@ git push -u <alias-remoto> <rama-que-quiero-subir> ## git push --set-upstream or
 git push -u origin dev
 ```
 
+## GIT FETCH: Traerme metadata del repo remoto
+O sea sicronizar la carpeta .git local con la .git remoto
+
+```sh
+git fetch 
+git fetch --all
+```
+
 
 
