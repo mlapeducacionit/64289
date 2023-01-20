@@ -53,4 +53,12 @@ O sea sicronizar la carpeta .git local con la .git remoto
 git branch -av # dónde -a es all y -v es verbose 
 ```
 
+## Puedo traerme los cambios de una rama en particular
+
+```sh
+git pull # Estando en la rama que quiero actualizar. O sea si estoy en dev, se va a actualizar con el remoto, dev
+git pull origin dev # No importa sobre que rama estoy, puedo indicarle que sincronizar.
+git pull origin feature 
+```
+
 
