@@ -172,3 +172,13 @@ git push --tags
 ```sh
 git log v0.1.0 --oneline
 ```
+
+# ALIAS
+
+## Crear un alias
+
+```sh
+git config --global alias.ll "log --oneline --decorate --all --graph"
+git config --global alias.s "status"
+git config --global alias.c "commit -m"
+```
