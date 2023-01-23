@@ -19,7 +19,7 @@
 
 # GIT RESET
 Nos permite resetear (volver atrás cambios: volver atraás commits)
-
+Nota: Recuerden que tengo que seleccionar el hash anterior al que quiero hacerle reset.
 ## SOFT
 
 ```sh
@@ -34,10 +34,14 @@ git reset --mixed <hash>
 ```
 
 ## HARD
-PELIGROSO. Hay que tratarlo con respeto.
+PELIGROSO. Hay que tratarlo con respeto. Pierdo toda la información.
 
 ```sh
 git reset --hard <hash>
 ```
 
+# REFLOG: Mira la historia global del REPO
 
+```sh
+git reflog
+```
