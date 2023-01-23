@@ -40,8 +40,12 @@ PELIGROSO. Hay que tratarlo con respeto. Pierdo toda la información.
 git reset --hard <hash>
 ```
 
+![git-reset](https://i.stack.imgur.com/qRAte.jpg)
+
 # REFLOG: Mira la historia global del REPO
 
 ```sh
 git reflog
 ```
+
+
